@@ -1,50 +1,60 @@
-body {
+html {
   text-align: center;
   font-family: Helvetica;
 }
 
-#homeimage {
-  background-image: url('resources/images/flatiron.png');
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+#home {
+  color: white;
+  background-image: url("../images/the-flatiron-building.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.menulinks {
+  color: white;
 }
 
 h1 {
   font-size: 70px;
-  font-weight: bold;
-  color: white
 }
 
 h2 {
   font-size: 32px;
-  font-weight: bold;
 }
 
 h3 {
   font-size: 23px;
-  font-weight: bold;
 }
 
-p {
+#process p,
+#work p,
+#team p,
+#contact p,
+ {
   font-size: 14px;
 }
 
-#designed h3{
+.designed {
+  font-size: 23px;
   color: white;
-}
-
-ul li {
-    list-style: none;
-}
-
-nav a {
-  color: white;
-  text-align: center;
+  background-image: url("../images/the-flatiron-building.png");
+  background-position: center;
 }
 
 #footer {
+  font-size: 11px;
   background-color: dimgray;
+  text-align: left;
   color: white;
 }
 
-span p {
-  color: white
+#footer .links {
+  font-size: 14px;
+  color: white;
 }
